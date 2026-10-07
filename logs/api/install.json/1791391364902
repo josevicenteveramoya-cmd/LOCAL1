@@ -1,0 +1,12 @@
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Modelos_ia\api\real-esrgan_local\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && call env\Scripts\activate && python -m pip install --upgrade pip setupt
+ools wheel
+Requirement already satisfied: pip in .\env\lib\site-packages (26.2.1)
+Requirement already satisfied: setuptools in .\env\lib\site-packages (84.0.0)
+Requirement already satisfied: wheel in .\env\lib\site-packages (0.48.0)
+Requirement already satisfied: packaging>=24.0 in .\env\lib\site-packages (from wheel) (26.3)
+
+(env) (base) D:\Modelos_ia\api\real-esrgan_local\app>

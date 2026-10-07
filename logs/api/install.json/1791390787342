@@ -1,0 +1,31 @@
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Modelos_ia\api\real-esrgan_local\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && call env\Scripts\activate && python -m pip install --upgrade pip setup
+tools wheel
+Requirement already satisfied: pip in d:\modelos_ia\api\real-esrgan_local\app\env\lib\site-packages (23.0.1)
+Collecting pip
+  Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 4.0 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in d:\modelos_ia\api\real-esrgan_local\app\env\lib\site-packages (79.0.1)
+Collecting setuptools
+  Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 818.2/818.2 kB 10.4 MB/s eta 0:00:00
+Collecting wheel
+  Downloading wheel-0.48.0-py3-none-any.whl (33 kB)
+Collecting packaging>=24.0
+  Downloading packaging-26.3-py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 8.0 MB/s eta 0:00:00
+Installing collected packages: setuptools, pip, packaging, wheel
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 79.0.1
+    Uninstalling setuptools-79.0.1:
+      Successfully uninstalled setuptools-79.0.1
+  Attempting uninstall: pip
+    Found existing installation: pip 23.0.1
+    Uninstalling pip-23.0.1:
+      Successfully uninstalled pip-23.0.1
+Successfully installed packaging-26.3 pip-26.2.1 setuptools-84.0.0 wheel-0.48.0
+
+(env) (base) D:\Modelos_ia\api\real-esrgan_local\app>

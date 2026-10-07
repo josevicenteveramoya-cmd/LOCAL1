@@ -1,0 +1,23 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "path": "app",
+        "message": "call env\\Scripts\\activate && python webui.py",
+        "on": [
+          {
+            "event": "/http:\\/\\/127\\.0\\.0\\.1:7860/",
+            "done": false
+          }
+        ]
+      }
+    },
+    {
+      "method": "local.set",
+      "params": {
+        "url": "http://127.0.0.1:7860"
+      }
+    }
+  ]
+}

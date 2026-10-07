@@ -1,0 +1,9 @@
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Modelos_ia\api\real-esrgan_local\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && python -c "import os; p=r'env\lib\site-packages\basicsr\data\degradatio
+ns.py'; open(p,'w').write(open(p).read().replace('from torchvision.transforms.functional_tensor import rgb_to_grayscale', 'from torchvision.transforms.functional import rgb_to_grayscale')) if os.path.exis
+ts(p) else None"
+
+(base) D:\Modelos_ia\api\real-esrgan_local\app>

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "2026-10-07T16-32-40.464Z-8d4de4",
+  "created_at": "2026-10-07T16:32:40.464Z",
+  "updated_at": "2026-10-07T16:36:48.360Z",
+  "runs": [
+    {
+      "script": "install.json",
+      "started_at": "2026-10-07T16:32:40.464Z",
+      "ended_at": "2026-10-07T16:36:48.360Z",
+      "logs": [
+        {
+          "path": "logs/api/install.json/1791390766797"
+        },
+        {
+          "path": "logs/api/install.json/1791390774787"
+        },
+        {
+          "path": "logs/api/install.json/1791390787342"
+        },
+        {
+          "path": "logs/api/install.json/1791390801253"
+        },
+        {
+          "path": "logs/api/install.json/1791390865498"
+        },
+        {
+          "path": "logs/api/install.json/1791390986824"
+        },
+        {
+          "path": "logs/api/install.json/1791390994257"
+        }
+      ]
+    }
+  ]
+}

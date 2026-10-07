@@ -1,0 +1,13 @@
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Modelos_ia\api\real-esrgan_local\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && call env\Scripts\activate && python inference_realesrgan.py -n RealESR
+GAN_x4plus -i inputs --outscale 4
+Downloading: "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth" to D:\Modelos_ia\api\real-esrgan_local\app\weights\RealESRGAN_x4plus.pth
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 63.9M/63.9M [00:05<00:00, 11.7MB/s]
+D:\Modelos_ia\api\real-esrgan_local\app\realesrgan\utils.py:63: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to 
+`torch.load`, forcing weights_only=False.
+  loadnet = torch.load(model_path, map_location=torch.device('cpu'))
+Testing 0 00003

@@ -1,0 +1,24 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "git clone https://github.com/xinntao/Real-ESRGAN.git app"
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "path": "app",
+        "message": [
+          "python -m venv env",
+          "call env\\Scripts\\activate && python -m pip install --upgrade pip setuptools wheel",
+          "call env\\Scripts\\activate && pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu",
+          "call env\\Scripts\\activate && pip install basicsr facexlib gfpgan gradio",
+          "call env\\Scripts\\activate && pip install -r requirements.txt",
+          "call env\\Scripts\\activate && python setup.py develop"
+        ]
+      }
+    }
+  ]
+}

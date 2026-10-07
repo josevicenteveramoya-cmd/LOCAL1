@@ -1,0 +1,8 @@
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Modelos_ia\api\real-esrgan_local>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git clone https://github.com/xinntao/Real-ESRGAN.git app
+fatal: destination path 'app' already exists and is not an empty directory.
+
+(base) D:\Modelos_ia\api\real-esrgan_local>

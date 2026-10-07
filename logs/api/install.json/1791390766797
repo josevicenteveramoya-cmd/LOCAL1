@@ -1,0 +1,12 @@
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Modelos_ia\api\real-esrgan_local>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git clone https://github.com/xinntao/Real-ESRGAN.git app
+Cloning into 'app'...
+remote: Enumerating objects: 759, done.
+remote: Total 759 (delta 0), reused 0 (delta 0), pack-reused 759 (from 1)
+Receiving objects: 100% (759/759), 5.39 MiB | 6.19 MiB/s, done.
+Resolving deltas: 100% (408/408), done.
+
+(base) D:\Modelos_ia\api\real-esrgan_local>
