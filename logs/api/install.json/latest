@@ -2,8 +2,8 @@
 Microsoft Windows [Versión 10.0.19044.7725]
 (c) Microsoft Corporation. Todos los derechos reservados.
 
-D:\Modelos_ia\api\real-esrgan_local\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && call env\Scripts\activate && python setup.py develop
-D:\Modelos_ia\api\real-esrgan_local\app\env\lib\site-packages\setuptools\__init__.py:92: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+D:\Modelos_ia\api\local1\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && call env\Scripts\activate && python setup.py develop
+D:\Modelos_ia\api\local1\app\env\lib\site-packages\setuptools\__init__.py:92: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
 !!
 
         ********************************************************************************
@@ -16,7 +16,7 @@ D:\Modelos_ia\api\real-esrgan_local\app\env\lib\site-packages\setuptools\__init_
 
 !!
   dist.fetch_build_eggs(dist.setup_requires)
-D:\Modelos_ia\api\real-esrgan_local\app\env\lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+D:\Modelos_ia\api\local1\app\env\lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
 !!
 
         ********************************************************************************
@@ -30,7 +30,7 @@ D:\Modelos_ia\api\real-esrgan_local\app\env\lib\site-packages\setuptools\dist.py
 !!
   self._finalize_license_expression()
 running develop
-D:\Modelos_ia\api\real-esrgan_local\app\env\lib\site-packages\setuptools\_distutils\cmd.py:90: DevelopDeprecationWarning: develop command is deprecated.
+D:\Modelos_ia\api\local1\app\env\lib\site-packages\setuptools\_distutils\cmd.py:90: DevelopDeprecationWarning: develop command is deprecated.
 !!
 
         ********************************************************************************
@@ -45,7 +45,7 @@ D:\Modelos_ia\api\real-esrgan_local\app\env\lib\site-packages\setuptools\_distut
 
 !!
   self.initialize_options()
-Obtaining file:///D:/Modelos_ia/api/real-esrgan_local/app
+Obtaining file:///D:/Modelos_ia/api/local1/app
   Installing build dependencies ... done
   Checking if build backend supports build_editable ... done
   Getting requirements to build editable ... done
@@ -108,14 +108,10 @@ Requirement already satisfied: platformdirs>=3.5.1 in .\env\lib\site-packages (f
 Requirement already satisfied: tomli>=2.0.1 in .\env\lib\site-packages (from yapf->basicsr>=1.4.2->realesrgan==0.3.0) (2.5.0)
 Building wheels for collected packages: realesrgan
   Building editable for realesrgan (pyproject.toml) ... done
-  Created wheel for realesrgan: filename=realesrgan-0.3.0-0.editable-py3-none-any.whl size=9617 sha256=48c1f720d02ef351873eb4e6ef4ea4ef1a6ab4f223940f68d1572b16584ae0c9
-  Stored in directory: D:\Modelos_ia\cache\TMPDIR\pip-ephem-wheel-cache-mx9mdrps\wheels\03\16\34\0402a63a44d3363f663cd0ac8c78340dc01041100f720bbbbd
+  Created wheel for realesrgan: filename=realesrgan-0.3.0-0.editable-py3-none-any.whl size=9614 sha256=87b070e8fec017881aab136e29722e7c45caec0728afddb5edb4bd5dbf87b997
+  Stored in directory: D:\Modelos_ia\cache\TMPDIR\pip-ephem-wheel-cache-7y8crg_h\wheels\74\20\b2\c2b9aa711f4a7bcac9e6791717c22246827011fc6ae49c9fd7
 Successfully built realesrgan
 Installing collected packages: realesrgan
-  Attempting uninstall: realesrgan
-    Found existing installation: realesrgan 0.3.0
-    Uninstalling realesrgan-0.3.0:
-      Successfully uninstalled realesrgan-0.3.0
 Successfully installed realesrgan-0.3.0
 
-(env) (base) D:\Modelos_ia\api\real-esrgan_local\app>
+(env) (base) D:\Modelos_ia\api\local1\app>

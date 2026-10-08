@@ -1,19 +1,11 @@
-[memory]
-{"ts":1791398073971,"step":1,"input":{"id":"394e88c2-67c8-4a48-95d2-92d2789c20f9","event":["http://127.0.0.1:7860"]},"args":{},"global":{},"local":{},"port":42005}
+[api shell.run]
+Microsoft Windows [Versión 10.0.19044.7725]
+(c) Microsoft Corporation. Todos los derechos reservados.
 
-[api local.set]
-
-
-===================================================
-
-[api local.set]
-# local variables
-
-[api local.set]
-{
-  "url": "http://127.0.0.1:7860"
-}
-[api local.set]
-
-===================================================
-
+D:\Modelos_ia\api\local1\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && call env\Scripts\activate && python webui.py
+* Running on local URL:  http://127.0.0.1:7860
+* To create a public link, set `share=True` in `launch()`.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 63.9M/63.9M [00:05<00:00, 11.7MB/s]
+D:\Modelos_ia\api\local1\app\realesrgan\utils.py:63: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`
+, forcing weights_only=False.
+  loadnet = torch.load(model_path, map_location=torch.device('cpu'))
